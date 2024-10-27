@@ -99,7 +99,7 @@ your configuration using environment variables.</p>
 (defn start-system
   []
   <span style="font-weight: bold;">(let [system-so-far {::env (start-env)}
-        system-so-far (merge system-so-far {::db (start-db)})]
+        system-so-far (merge system-so-far {::db (start-db system-so-far)})]
     (merge system-so-far {::server (start-server system-so-far)}))</span>)
 
 (defn stop-system
