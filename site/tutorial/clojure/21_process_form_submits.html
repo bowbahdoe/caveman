@@ -51,17 +51,14 @@
             <span style="font-weight: bold;">[ring.util.anti-forgery :as anti-forgery]</span>))
 
 (defn cave-create-handler
-  [_system request]
-  (println request)
-  (println (:params request))
-  (let [{:keys [description]} (:params request)]
-    {:status  200
-     :headers {"Content-Type" "text/html"}
-     :body    (str
-               (hiccup/html
-                [:html
-                 [:body
-                  [:h1 "TODO"]]]))}))
+  [_system _request]
+  {:status  200
+   :headers {"Content-Type" "text/html"}
+   :body    (str
+             (hiccup/html
+              [:html
+               [:body
+                [:h1 "TODO"]]]))})
 
 (defn cave-handler
   [_system _request]
