@@ -99,7 +99,7 @@
             <span style="font-weight: bold;">[ring.util.response :as response]</span>))
 
 (defn cave-create-handler
-  [{::system/keys [db]} request]
+  [<span style="font-weight: bold;">{::system/keys [db]}</span> request]
   <span style="font-weight: bold;">(let [{:keys [description]} (:params request)]
     (jdbc/execute!
       db
