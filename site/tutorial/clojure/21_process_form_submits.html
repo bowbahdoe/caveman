@@ -116,9 +116,9 @@
                 submit a new one, and immediately see it in the list when you hit submit.</p>
             <code><pre>(defn cave-handler
   [<span style="font-weight: bold;">{::system/keys [db]}</span> _request]
-  (let [caves (jdbc/execute!
+  <span style="font-weight: bold;">(let [caves (jdbc/execute!
                 db
-                ["SELECT id, description FROM prehistoric.cave"])]
+                ["SELECT id, description FROM prehistoric.cave"])]</span>
     {:status  200
      :headers {"Content-Type" "text/html"}
      :body    (str
@@ -135,7 +135,7 @@
                    (hiccup/raw (anti-forgery/anti-forgery-field))
                    [:label {:for "description"} "Description"]
                    [:input {:name "description" :type "text"}]
-                   [:input {:type "submit"}]]]]))}))</pre>
+                  [:input {:type "submit"}]]]]))}<span style="font-weight: bold;">)</span>)</pre>
             </code>
             <p>If all goes well, you should end up with something like the following screenshot.</p>
             <img src="21/screenshot.png" alt="Screenshot of expected output">
