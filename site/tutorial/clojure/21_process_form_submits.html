@@ -94,9 +94,9 @@
   (:require [example.middleware :as middleware]
             <span style="font-weight: bold;">[example.system :as-alias system]</span>
             [hiccup2.core :as hiccup]
-            <span style="font-weight: bold;">[next.jdbc :as jdbc]
+            <span style="font-weight: bold;">[next.jdbc :as jdbc]</span>
             [ring.util.anti-forgery :as anti-forgery]
-            [ring.util.response :as response]</span>))
+            <span style="font-weight: bold;">[ring.util.response :as response]</span>))
 
 (defn cave-create-handler
   [{::system/keys [db]} request]
