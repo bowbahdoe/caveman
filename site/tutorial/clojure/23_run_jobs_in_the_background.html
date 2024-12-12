@@ -163,7 +163,7 @@ DROP SCHEMA proletarian;
                 worker to your <code>system</code> namespace.</a></h2>
             <p>This will include wiring up the custom logger from earlier.</p>
             <code><pre>(ns example.system
-  (:require [example.jobs :as jobs]
+  (:require <span style="font-weight: bold;">[example.jobs :as jobs]</span>
             [example.routes :as routes]
             [next.jdbc.connection :as connection]
             <span style="font-weight: bold;">[proletarian.worker :as worker]</span>
@@ -266,8 +266,8 @@ DROP SCHEMA proletarian;
             <code><pre>(ns example.jobs
   (:require [clojure.tools.logging :as log]
             [proletarian.worker :as-alias worker]
-            [proletarian.protocols :as protocols]
-            [cheshire.core :as cheshire]))
+            <span style="font-weight: bold;">[proletarian.protocols :as protocols]
+            [cheshire.core :as cheshire]</span>))
 
 <span style="font-weight: bold;">(def json-serializer
   (reify protocols/Serializer
