@@ -51,17 +51,14 @@
             <span style="font-weight: bold;">[ring.util.anti-forgery :as anti-forgery]</span>))
 
 (defn cave-create-handler
-  [_system request]
-  (println request)
-  (println (:params request))
-  (let [{:keys [description]} (:params request)]
-    {:status  200
-     :headers {"Content-Type" "text/html"}
-     :body    (str
-               (hiccup/html
-                [:html
-                 [:body
-                  [:h1 "TODO"]]]))}))
+  [_system _request]
+  {:status  200
+   :headers {"Content-Type" "text/html"}
+   :body    (str
+             (hiccup/html
+              [:html
+               [:body
+                [:h1 "TODO"]]]))})
 
 (defn cave-handler
   [_system _request]
@@ -94,12 +91,12 @@
   (:require [example.middleware :as middleware]
             <span style="font-weight: bold;">[example.system :as-alias system]</span>
             [hiccup2.core :as hiccup]
-            <span style="font-weight: bold;">[next.jdbc :as jdbc]
+            <span style="font-weight: bold;">[next.jdbc :as jdbc]</span>
             [ring.util.anti-forgery :as anti-forgery]
-            [ring.util.response :as response]</span>))
+            <span style="font-weight: bold;">[ring.util.response :as response]</span>))
 
 (defn cave-create-handler
-  [{::system/keys [db]} request]
+  [<span style="font-weight: bold;">{::system/keys [db]}</span> request]
   <span style="font-weight: bold;">(let [{:keys [description]} (:params request)]
     (jdbc/execute!
       db
@@ -119,9 +116,9 @@
                 submit a new one, and immediately see it in the list when you hit submit.</p>
             <code><pre>(defn cave-handler
   [<span style="font-weight: bold;">{::system/keys [db]}</span> _request]
-  (let [caves (jdbc/execute!
+  <span style="font-weight: bold;">(let [caves (jdbc/execute!
                 db
-                ["SELECT id, description FROM prehistoric.cave"])]
+                ["SELECT id, description FROM prehistoric.cave"])]</span>
     {:status  200
      :headers {"Content-Type" "text/html"}
      :body    (str
@@ -138,7 +135,7 @@
                    (hiccup/raw (anti-forgery/anti-forgery-field))
                    [:label {:for "description"} "Description"]
                    [:input {:name "description" :type "text"}]
-                   [:input {:type "submit"}]]]]))}))</pre>
+                  [:input {:type "submit"}]]]]))}<span style="font-weight: bold;">)</span>)</pre>
             </code>
             <p>If all goes well, you should end up with something like the following screenshot.</p>
             <img src="21/screenshot.png" alt="Screenshot of expected output">
