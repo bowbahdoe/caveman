@@ -5,7 +5,7 @@
         org.clojure/tools.logging {:mvn/version "1.3.0"}
         org.slf4j/slf4j-simple {:mvn/version "2.0.16"}
         hiccup/hiccup {:mvn/version "2.0.0-RC3"}
-        com.github.seancorfield/next.jdbc {:mvn/version "1.3.955"}
+        com.github.seancorfield/next.jdbc {:mvn/version "1.3.1070"}
         org.postgresql/postgresql {:mvn/version "42.7.4"}
         com.zaxxer/HikariCP {:mvn/version "6.0.0"}
         io.github.cdimascio/dotenv-java {:mvn/version "3.0.2"}
