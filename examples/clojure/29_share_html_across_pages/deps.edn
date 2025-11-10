@@ -27,7 +27,7 @@
         ;; Dynamic SQL Generation
         com.github.seancorfield/honeysql {:mvn/version "2.7.1350"}}
  :aliases {:dev {:extra-paths ["dev" "test"]
-                 :extra-deps {nrepl/nrepl {:mvn/version "1.3.0"}
+                 :extra-deps {nrepl/nrepl {:mvn/version "1.5.1"}
                               ;; Test Runner
                               lambdaisland/kaocha {:mvn/version "1.91.1392"}
                               ;; Run Postgres in Tests

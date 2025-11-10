@@ -8,5 +8,5 @@
  :aliases {:nREPL
             {:extra-paths ["dev"]
              :extra-deps
-              {nrepl/nrepl {:mvn/version "1.3.0"}}}
+              {nrepl/nrepl {:mvn/version "1.5.1"}}}
            :dev {:extra-paths ["dev"]}}}
