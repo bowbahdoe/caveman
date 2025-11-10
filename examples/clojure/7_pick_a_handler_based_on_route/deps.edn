@@ -1,6 +1,6 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.12.3"}
-        ring/ring {:mvn/version "1.13.0"}
+        ring/ring {:mvn/version "1.15.3"}
         metosin/reitit-ring {:mvn/version "0.9.2"}}
  :aliases {:nREPL
             {:extra-paths ["dev"]

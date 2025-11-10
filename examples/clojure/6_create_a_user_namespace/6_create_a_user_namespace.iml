@@ -17,7 +17,7 @@
     <orderEntry type="library" name="Deps: commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-xml:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-servlet:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: ring/ring-devel:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: ring/ring-devel:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/core.specs.alpha:0.4.74" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-jetty-api:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-jetty-common:11.0.24" level="project" />
@@ -26,13 +26,13 @@
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-http:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-util:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-core-common:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: ring/ring-jetty-adapter:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: ring/ring-jetty-adapter:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: commons-io:2.17.0" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-core-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.namespace:1.5.0" level="project" />
     <orderEntry type="library" name="Deps: org.apache.commons/commons-fileupload2-core:2.0.0-M1" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-servlet:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: org.ring-clojure/ring-jakarta-servlet:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: org.ring-clojure/ring-jakarta-servlet:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-jetty-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-unixdomain-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-security:11.0.24" level="project" />
@@ -42,15 +42,15 @@
     <orderEntry type="library" name="Deps: ns-tracker:1.0.0" level="project" />
     <orderEntry type="library" name="Deps: crypto-random:1.2.1" level="project" />
     <orderEntry type="library" name="Deps: ring/ring-codec:1.2.0" level="project" />
-    <orderEntry type="library" name="Deps: org.ring-clojure/ring-websocket-protocols:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: org.ring-clojure/ring-websocket-protocols:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: crypto-equality:1.0.1" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-io:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.reader:1.4.0" level="project" />
-    <orderEntry type="library" name="Deps: org.ring-clojure/ring-core-protocols:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: org.ring-clojure/ring-core-protocols:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: clj-stacktrace:0.2.8" level="project" />
     <orderEntry type="library" name="Deps: org.slf4j/slf4j-api:2.0.9" level="project" />
-    <orderEntry type="library" name="Deps: ring:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: ring:1.15.3" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-server:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: ring/ring-core:1.13.0" level="project" />
+    <orderEntry type="library" name="Deps: ring/ring-core:1.15.3" level="project" />
   </component>
 </module>
