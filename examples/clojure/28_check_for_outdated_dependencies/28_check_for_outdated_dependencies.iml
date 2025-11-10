@@ -38,7 +38,7 @@
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-core-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.postgresql/postgresql:42.7.4" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.namespace:1.5.0" level="project" />
-    <orderEntry type="library" name="Deps: com.github.seancorfield/honeysql:2.6.1203" level="project" />
+    <orderEntry type="library" name="Deps: com.github.seancorfield/honeysql:2.7.1350" level="project" />
     <orderEntry type="library" name="Deps: com.fasterxml.jackson.core/jackson-core:2.17.0" level="project" />
     <orderEntry type="library" name="Deps: org.apache.commons/commons-fileupload2-core:2.0.0-M1" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-servlet:11.0.24" level="project" />
