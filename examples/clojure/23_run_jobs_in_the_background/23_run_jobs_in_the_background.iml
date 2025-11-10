@@ -44,7 +44,7 @@
     <orderEntry type="library" name="Deps: ring/ring-jetty-adapter:1.13.0" level="project" />
     <orderEntry type="library" name="Deps: commons-io:2.17.0" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.websocket/websocket-core-server:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: org.postgresql/postgresql:42.7.4" level="project" />
+    <orderEntry type="library" name="Deps: org.postgresql/postgresql:42.7.8" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.namespace:1.5.0" level="project" />
     <orderEntry type="library" name="Deps: fipp:0.6.26" level="project" />
     <orderEntry type="library" name="Deps: com.nextjournal/beholder:1.0.2" level="project" />
