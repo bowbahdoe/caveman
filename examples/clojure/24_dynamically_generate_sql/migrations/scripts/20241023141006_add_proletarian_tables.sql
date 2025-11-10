@@ -2,7 +2,7 @@
 CREATE SCHEMA IF NOT EXISTS proletarian;
 
 CREATE TABLE IF NOT EXISTS proletarian.job (
-    job_id      UUID PRIMARY KEY DEFAULT gen_random_uuid(),   -- job id, generated and returned by proletarian.job/enqueue!
+    job_id      UUID PRIMARY KEY DEFAULT uuidv7(),   -- job id, generated and returned by proletarian.job/enqueue!
     queue       TEXT      NOT NULL DEFAULT ':proletarian/default', -- queue name
     job_type    TEXT      NOT NULL, -- job type
     payload     TEXT      NOT NULL, -- Transit-encoded job data

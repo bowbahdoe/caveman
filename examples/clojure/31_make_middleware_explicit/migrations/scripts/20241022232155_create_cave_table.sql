@@ -12,7 +12,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE TABLE prehistoric.cave(
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     description text
