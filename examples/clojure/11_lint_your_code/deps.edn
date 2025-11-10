@@ -8,7 +8,7 @@
  :aliases {:nREPL
             {:extra-paths ["dev"]
              :extra-deps
-              {nrepl/nrepl {:mvn/version "1.3.0"}}}
+              {nrepl/nrepl {:mvn/version "1.5.1"}}}
            :dev {:extra-paths ["dev"]}
            :format {:deps {dev.weavejester/cljfmt {:mvn/version "0.15.3"}}}
            :lint   {:deps {clj-kondo/clj-kondo {:mvn/version "2025.10.23"}}}}}
