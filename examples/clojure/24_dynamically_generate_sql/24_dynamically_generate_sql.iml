@@ -59,7 +59,7 @@
     <orderEntry type="library" name="Deps: lambdaisland/tools.namespace:0.3.256" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-unixdomain-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-security:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: org.slf4j/slf4j-simple:2.0.16" level="project" />
+    <orderEntry type="library" name="Deps: org.slf4j/slf4j-simple:2.0.17" level="project" />
     <orderEntry type="library" name="Deps: mvxcvi/arrangement:2.1.0" level="project" />
     <orderEntry type="library" name="Deps: io.methvin/directory-watcher:0.17.3" level="project" />
     <orderEntry type="library" name="Deps: metosin/reitit-core:0.5.5" level="project" />
@@ -90,7 +90,7 @@
     <orderEntry type="library" name="Deps: org.tcrawley/dynapath:1.1.0" level="project" />
     <orderEntry type="library" name="Deps: nrepl:1.2.0" level="project" />
     <orderEntry type="library" name="Deps: clj-stacktrace:0.2.8" level="project" />
-    <orderEntry type="library" name="Deps: org.slf4j/slf4j-api:2.0.16" level="project" />
+    <orderEntry type="library" name="Deps: org.slf4j/slf4j-api:2.0.17" level="project" />
     <orderEntry type="library" name="Deps: hawk:0.2.11" level="project" />
     <orderEntry type="library" name="Deps: camel-snake-kebab:0.4.3" level="project" />
     <orderEntry type="library" name="Deps: ring:1.13.0" level="project" />
