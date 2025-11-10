@@ -51,7 +51,7 @@
                 they reside and a <code>name</code>.</p>
             <code><pre>-- // create_hominid_table
 CREATE TABLE prehistoric.hominid (
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     "name" text,
@@ -78,7 +78,7 @@ DROP TABLE prehistoric.hominid;</pre>
                 It's not the default behavior but it's the least potentially problem causing.</p>
             <code><pre>-- // create_hominid_table
 CREATE TABLE prehistoric.hominid (
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     "name" text,
@@ -105,7 +105,7 @@ DROP TABLE prehistoric.hominid;</pre>
                 that cover the related columns I come to regret it.</p>
             <code><pre>-- // create_hominid_table
 CREATE TABLE prehistoric.hominid (
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     "name" text,

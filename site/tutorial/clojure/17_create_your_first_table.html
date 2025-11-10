@@ -91,7 +91,7 @@ DROP SCHEMA prehistoric;</pre>
             <code><pre>CREATE SCHEMA prehistoric;
 
 <span style="font-weight: bold;">CREATE TABLE prehistoric.cave(
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     description text
@@ -127,7 +127,7 @@ END;
 $$ LANGUAGE plpgsql;</span>
 
 CREATE TABLE prehistoric.cave(
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     description text
@@ -166,7 +166,7 @@ DROP SCHEMA prehistoric;</pre>
 CREATE SCHEMA prehistoric;
 
 CREATE TABLE prehistoric.cave(
-    id uuid NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
+    id uuid NOT NULL DEFAULT uuidv7() PRIMARY KEY,
     created_at timestamptz NOT NULL DEFAULT now(),
     updated_at timestamptz NOT NULL DEFAULT now(),
     description text
