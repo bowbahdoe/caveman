@@ -15,7 +15,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Deps: com.cognitect/transit-java:1.0.362" level="project" />
     <orderEntry type="library" name="Deps: com.github.docker-java/docker-java-transport:3.4.0" level="project" />
-    <orderEntry type="library" name="Deps: org.clojure/clojure:1.12.0" level="project" />
+    <orderEntry type="library" name="Deps: org.clojure/clojure:1.12.3" level="project" />
     <orderEntry type="library" name="Deps: lambdaisland/deep-diff2:2.11.216" level="project" />
     <orderEntry type="library" name="Deps: commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-xml:11.0.24" level="project" />
