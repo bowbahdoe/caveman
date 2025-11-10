@@ -38,7 +38,7 @@
     <orderEntry type="library" name="Deps: metosin/reitit-ring:0.5.5" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-unixdomain-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-security:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: org.slf4j/slf4j-simple:2.0.16" level="project" />
+    <orderEntry type="library" name="Deps: org.slf4j/slf4j-simple:2.0.17" level="project" />
     <orderEntry type="library" name="Deps: metosin/reitit-core:0.5.5" level="project" />
     <orderEntry type="library" name="Deps: hiccup:2.0.0" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-webapp:11.0.24" level="project" />
@@ -52,7 +52,7 @@
     <orderEntry type="library" name="Deps: org.clojure/tools.reader:1.4.0" level="project" />
     <orderEntry type="library" name="Deps: org.ring-clojure/ring-core-protocols:1.13.0" level="project" />
     <orderEntry type="library" name="Deps: clj-stacktrace:0.2.8" level="project" />
-    <orderEntry type="library" name="Deps: org.slf4j/slf4j-api:2.0.16" level="project" />
+    <orderEntry type="library" name="Deps: org.slf4j/slf4j-api:2.0.17" level="project" />
     <orderEntry type="library" name="Deps: ring:1.13.0" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-server:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: ring/ring-core:1.13.0" level="project" />
