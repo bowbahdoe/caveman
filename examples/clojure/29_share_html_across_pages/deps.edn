@@ -19,7 +19,7 @@
         ;; Unify Environment Variables + .env Handing
         io.github.cdimascio/dotenv-java {:mvn/version "3.2.0"}
         ;; HTTP Middleware
-        ring/ring-defaults {:mvn/version "0.5.0"}
+        ring/ring-defaults {:mvn/version "0.7.0"}
         ;; Background Jobs
         msolli/proletarian {:mvn/version "1.0.89-alpha"}
         ;; JSON Reading and Writing
