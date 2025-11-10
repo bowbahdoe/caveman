@@ -23,7 +23,7 @@
         ;; Background Jobs
         msolli/proletarian {:mvn/version "1.0.86-alpha"}
         ;; JSON Reading and Writing
-        cheshire/cheshire {:mvn/version "5.13.0"}
+        cheshire/cheshire {:mvn/version "6.1.0"}
         ;; Dynamic SQL Generation
         com.github.seancorfield/honeysql {:mvn/version "2.6.1203"}}
  :aliases {:dev {:extra-paths ["dev" "test"]

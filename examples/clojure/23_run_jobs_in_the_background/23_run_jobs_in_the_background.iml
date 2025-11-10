@@ -81,7 +81,7 @@
     <orderEntry type="library" name="Deps: org.checkerframework/checker-qual:3.42.0" level="project" />
     <orderEntry type="library" name="Deps: net.java.dev.jna/jna:5.12.1" level="project" />
     <orderEntry type="library" name="Deps: msolli/proletarian:1.0.86-alpha" level="project" />
-    <orderEntry type="library" name="Deps: cheshire:5.13.0" level="project" />
+    <orderEntry type="library" name="Deps: cheshire:6.1.0" level="project" />
     <orderEntry type="library" name="Deps: tigris:0.1.2" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-io:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.reader:1.4.0" level="project" />
