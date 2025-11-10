@@ -33,7 +33,7 @@
     <orderEntry type="library" name="Deps: org.clojure/spec.alpha:0.5.238" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/tools.cli:1.1.230" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty.toolchain/jetty-jakarta-servlet-api:5.0.2" level="project" />
-    <orderEntry type="library" name="Deps: io.github.cdimascio/dotenv-java:3.0.2" level="project" />
+    <orderEntry type="library" name="Deps: io.github.cdimascio/dotenv-java:3.2.0" level="project" />
     <orderEntry type="library" name="Deps: ring/ring-ssl:0.4.0" level="project" />
     <orderEntry type="library" name="Deps: lambdaisland/clj-diff:1.4.78" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-http:11.0.24" level="project" />
