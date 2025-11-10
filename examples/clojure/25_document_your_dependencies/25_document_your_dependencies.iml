@@ -64,7 +64,7 @@
     <orderEntry type="library" name="Deps: org.ring-clojure/ring-websocket-protocols:1.13.0" level="project" />
     <orderEntry type="library" name="Deps: crypto-equality:1.0.1" level="project" />
     <orderEntry type="library" name="Deps: org.checkerframework/checker-qual:3.42.0" level="project" />
-    <orderEntry type="library" name="Deps: msolli/proletarian:1.0.86-alpha" level="project" />
+    <orderEntry type="library" name="Deps: msolli/proletarian:1.0.89-alpha" level="project" />
     <orderEntry type="library" name="Deps: cheshire:6.1.0" level="project" />
     <orderEntry type="library" name="Deps: tigris:0.1.2" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-io:11.0.24" level="project" />

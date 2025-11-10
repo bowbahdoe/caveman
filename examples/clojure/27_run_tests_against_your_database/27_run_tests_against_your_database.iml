@@ -91,7 +91,7 @@
     <orderEntry type="library" name="Deps: org.checkerframework/checker-qual:3.42.0" level="project" />
     <orderEntry type="library" name="Deps: net.java.dev.jna/jna:6.1.0" level="project" />
     <orderEntry type="library" name="Deps: junit:4.13.2" level="project" />
-    <orderEntry type="library" name="Deps: msolli/proletarian:1.0.86-alpha" level="project" />
+    <orderEntry type="library" name="Deps: msolli/proletarian:1.0.89-alpha" level="project" />
     <orderEntry type="library" name="Deps: cheshire:6.1.0" level="project" />
     <orderEntry type="library" name="Deps: tigris:0.1.2" level="project" />
     <orderEntry type="library" name="Deps: com.github.docker-java/docker-java-api:3.4.0" level="project" />
