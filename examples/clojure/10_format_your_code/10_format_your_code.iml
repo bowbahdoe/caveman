@@ -40,7 +40,7 @@
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-security:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.slf4j/slf4j-simple:2.0.16" level="project" />
     <orderEntry type="library" name="Deps: metosin/reitit-core:0.5.5" level="project" />
-    <orderEntry type="library" name="Deps: hiccup:2.0.0-RC3" level="project" />
+    <orderEntry type="library" name="Deps: hiccup:2.0.0" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-webapp:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.clojure/java.classpath:1.1.0" level="project" />
     <orderEntry type="library" name="Deps: ns-tracker:1.0.0" level="project" />

@@ -72,7 +72,7 @@
     <orderEntry type="library" name="Deps: metosin/reitit-core:0.7.2" level="project" />
     <orderEntry type="library" name="Deps: ring/ring-headers:0.4.0" level="project" />
     <orderEntry type="library" name="Deps: com.fasterxml.jackson.core/jackson-annotations:2.10.3" level="project" />
-    <orderEntry type="library" name="Deps: hiccup:2.0.0-RC3" level="project" />
+    <orderEntry type="library" name="Deps: hiccup:2.0.0" level="project" />
     <orderEntry type="library" name="Deps: progrock:0.1.2" level="project" />
     <orderEntry type="library" name="Deps: org.javassist/javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-webapp:11.0.24" level="project" />

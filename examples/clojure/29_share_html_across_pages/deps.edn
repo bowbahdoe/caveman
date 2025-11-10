@@ -9,7 +9,7 @@
         ;; Logging Implementation
         org.slf4j/slf4j-simple {:mvn/version "2.0.16"}
         ;; HTML Generation
-        hiccup/hiccup {:mvn/version "2.0.0-RC3"}
+        hiccup/hiccup {:mvn/version "2.0.0"}
         ;; Database Queries
         com.github.seancorfield/next.jdbc {:mvn/version "1.3.1070"}
         ;; Postgres Driver
