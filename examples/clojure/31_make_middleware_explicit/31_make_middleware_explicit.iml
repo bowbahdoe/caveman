@@ -20,7 +20,7 @@
     <orderEntry type="library" name="Deps: lambdaisland/deep-diff2:2.11.216" level="project" />
     <orderEntry type="library" name="Deps: commons-codec:1.15" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-xml:11.0.24" level="project" />
-    <orderEntry type="library" name="Deps: com.zaxxer/HikariCP:6.0.0" level="project" />
+    <orderEntry type="library" name="Deps: com.zaxxer/HikariCP:7.0.2" level="project" />
     <orderEntry type="library" name="Deps: org.eclipse.jetty/jetty-servlet:11.0.24" level="project" />
     <orderEntry type="library" name="Deps: org.apache.commons/commons-compress:1.24.0" level="project" />
     <orderEntry type="library" name="Deps: ring/ring-devel:1.13.0" level="project" />
