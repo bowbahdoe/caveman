@@ -68,6 +68,7 @@
            :dev {:extra-paths ["dev"]}}}</pre
           >
             </code>
+            <p>Now you need to restart your repl or evaluate <code>(sync-deps)</code> in your repl to download the new library and make it available in the classpass</p>
         </section>
     </li>
     <li>
@@ -206,7 +207,7 @@
     </li>
     <li>
         <section id="open-your-web-browser">
-            <h2 class="section-header"><a href="#open-your-web-browser">Open your web browser and go to <code>http://localhost:9999</code>
+            <h2 class="section-header"><a href="#open-your-web-browser">Restart the server, open your web browser and go to <code>http://localhost:9999</code>
                 and <code>http://localhost:9999/goodbye</code>
             </a></h2>
             <p>You should see the hello and goodbye example responses, which means that routing is happening as
@@ -256,7 +257,7 @@
     </li>
     <li>
         <section id="try-a-non-existent-route">
-            <h2 class="section-header"><a href="#try-a-non-existent-route">Try a non-existent route like
+            <h2 class="section-header"><a href="#try-a-non-existent-route">Restart the server and try a non-existent route like
                 <code>/abc</code>
             </a></h2>
             <p>You should see the 404 response.</p>
